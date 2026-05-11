@@ -4,8 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class LoginPage:
     URL = "https://the-internet.herokuapp.com/"
-    #LOGIN_PAGE_LINK = (By.CSS_SELECTOR,"a[href='/login']")
-    LOGIN_PAGE_LINK = (By.XPATH,"//a[@href='/login']")
+    LOGIN_PAGE_LINK = (By.CSS_SELECTOR,"a[href='/login']")
     USER_INPUT = (By.ID, "username")
     PWD_INPUT = (By.ID, "password")
     LOGIN_BUTTON = (By.CSS_SELECTOR, "button[class='radius']")
